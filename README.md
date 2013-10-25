@@ -23,8 +23,7 @@ Of course, it may also contain bugs. Any feedback is appreciated.
 
 ## How to use ##
 
-Add `<processor type="Creuna.Sitecore.Mvc.WebFormsSupport.GetControlRenderer, Creuna.Sitecore.Mvc.WebFormsSupport" />` to the mvc.getRenderer pipeline and you are good to go. 
-You can do that by coping "Creuna.Sitecore.Mvc.WebFormsSupport.config" from this repository to App_Config/Include.
+Add "Creuna.Sitecore.Mvc.WebFormsSupport.dll" to you bin folder, and `<processor type="Creuna.Sitecore.Mvc.WebFormsSupport.GetControlRenderer, Creuna.Sitecore.Mvc.WebFormsSupport" />` to the mvc.getRenderer pipeline and you are good to go. You can also just install the package from this repository ("Web Forms support in Sitecore MVC.zip").
 
 If you intend to use multiple controls in the same layout you should wrap the places where Web Forms components may occur in your views with
 
